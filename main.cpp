@@ -19,7 +19,6 @@ T getRandomElement(const vector<T>& vec){
     return vec[dis(gen)];
 }
 
-
 void Guess(){
     if (lives != 0){
         cout << endl;
