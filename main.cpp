@@ -17,7 +17,6 @@ T getRandomElement(const vector<T>& vec){
     mt19937 gen(randomDevice());
     uniform_int_distribution<> dis(0, vec.size()-1);
     return vec[dis(gen)];
-
 }
 
 
